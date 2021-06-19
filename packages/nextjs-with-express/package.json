@@ -1,10 +1,13 @@
 {
   "name": "custom-server-express",
   "version": "1.0.0",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
   "scripts": {
-    "dev": "node -r esm server.js",
+    "dev": "node server.mjs",
     "build": "next build",
-    "start": "NODE_ENV=production node -r esm server.js"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "some-es6-package": "1",
