@@ -1,9 +1,24 @@
 {
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "composite": true,
+    "incremental": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": ["**/node_modules"],
   "references": [
-    { "path": "./some-es6-package" },
-    { "path": "./next-with-express" }
-  ],
-  "files": [],
-  "include": [],
-  "exclude": ["**/node_modules"]
+    {
+      "path": "./packages/shared-es-module"
+    },
+    {
+      "path": "./packages/nextjs-app"
+    }
+  ]
 }

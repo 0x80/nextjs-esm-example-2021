@@ -1,5 +1,5 @@
 {
-  "name": "some-es6-package",
+  "name": "@example/shared-es-module",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -7,7 +7,7 @@
   "types": "dist/index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "tsc"
+    "build": "tsc --build"
   },
   "author": "",
   "license": "ISC",

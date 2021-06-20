@@ -1,0 +1,21 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "jsx": "preserve",
+    "noEmit": true,
+    "rootDir": "src",
+    "allowJs": true
+  },
+  "include": [
+    "src"
+  ],
+  "references": [
+    {
+      "path": "../shared-es-module"
+    }
+  ]
+}

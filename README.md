@@ -2,14 +2,10 @@
 
 An example of a modern Next.js project configuration.
 
-This was originally based on https://github.com/curran/nextjs-esm-example. I
-have stripped the ESM and Lerna dependencies in favor of Yarn workspaces and
-modern versions of Node with built-in ESM support, and then converted things to
-Typescript.
+This example uses Yarn workspaces because that is what I'm familiar withM, but NPM
+also has workspaces nowadays and I would assume they are compatible.
 
-This example uses Yarn workspaces because that's what I'm familiar with. NPM
-also has workspaces nowadays which should work very similarly, so I'm sure you
-can make it work with NPM instead of Yarn.
+## Javascript Only
 
 For the stubborn who still like writing their code in plain Javascript, you can
 check out the `topic/js-only` branch to see a working example before I've
@@ -19,7 +15,7 @@ converted it to Typescript.
 
 - ES Modules
 - Monorepo using Yarn or NPM workspaces
-- Typescript with project references
+- Typescript with project references and incremental compilation
 - Next.js 11 (including Webpack 5 and ESLint)
 
 ## Usage
@@ -27,7 +23,7 @@ converted it to Typescript.
 ### With Yarn
 
 - Run `yarn install` or just `yarn` in the root
-- `cd packages/nextjs-with-express/`
+- `cd packages/nextjs-app/`
 - `yarn dev` to start the dev server
 - Then access http://localhost:3000/
 
@@ -36,6 +32,12 @@ The page should display "Importing an ES6 module in Next.js via ESM worked!".
 ### With NPM
 
 @TODO try it out
+
+### Future Improvements
+
+- Figure out if it is possible to automatically build package dependencies when
+  compiling the app.
+- Add path alias for ~/
 
 ## Some Additional Resources
 
