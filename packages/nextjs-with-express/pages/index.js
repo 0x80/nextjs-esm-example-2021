@@ -1,9 +1,6 @@
-import React from 'react'
-import Link from 'next/link'
-import { message } from 'some-es6-package'
+import React from "react";
+import { message } from "some-es6-package";
 
-export default () => (
-  <h1>
-    { message }
-  </h1>
-)
+export default function HomePage() {
+  return <h1>{message}</h1>;
+}
