@@ -30,9 +30,10 @@ The page should display "Importing an ES6 module in Next.js via ESM worked!".
 This is interesting because it's imported directly as an ES6 module from within
 `node_modules` (sym-linked by Yarn Workspaces).
 
-## More Information
+## Some Useful Resources
 
 - [Next.js Custom Server with Express
   example](https://github.com/zeit/next.js/blob/canary/examples/custom-server-express).
 - [A practical guide to
   ESM](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c)
+- [Yarn workspaces with Typescript](https://stackoverflow.com/questions/57679322/how-to-use-yarn-workspaces-with-typescript-and-out-folders)

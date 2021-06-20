@@ -1,0 +1,9 @@
+{
+  "references": [
+    { "path": "./some-es6-package" },
+    { "path": "./next-with-express" }
+  ],
+  "files": [],
+  "include": [],
+  "exclude": ["**/node_modules"]
+}

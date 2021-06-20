@@ -1,5 +1,6 @@
 {
   "name": "root",
+  "license": "ISC",
   "private": true,
   "workspaces": {
     "packages": [
