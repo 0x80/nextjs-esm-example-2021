@@ -5,9 +5,9 @@
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
   },
   "scripts": {
-    "dev": "node src/server.mjs",
+    "dev": "node server.mjs",
     "build": "next build",
-    "start": "NODE_ENV=production node src/server.mjs"
+    "start": "NODE_ENV=production node server.mjs"
   },
   "dependencies": {
     "express": "^4.16.4",
