@@ -1,7 +1,6 @@
 {
   "name": "@example/shared-es-module",
   "version": "1.0.0",
-  "description": "",
   "type": "module",
   "exports": "./dist/index.js",
   "types": "dist/index",
@@ -9,7 +8,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --build"
   },
-  "author": "",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
